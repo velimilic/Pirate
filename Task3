@@ -1,0 +1,5 @@
+TRANSFORM SUM(ApAmount)
+SELECT ExpenseType
+FROM Costs
+GROUP BY ExpenseType
+PIVOT ExpenseArea;
