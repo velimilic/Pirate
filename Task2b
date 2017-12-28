@@ -1,0 +1,3 @@
+SELECT ExpenseType, SUM(ApAmount)
+FROM Costs
+GROUP BY ExpenseType;
