@@ -1,0 +1,2 @@
+SELECT SUM(ApAmount)
+FROM Costs;
